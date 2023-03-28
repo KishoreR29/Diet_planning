@@ -79,7 +79,7 @@ The project is created with:
 ### Run it locally
 #### Clone the repo
 ```
-$ git clone https://github.com/zakaria-narjis/Diet-Recommendation-System
+$ [git clone https://github.com/zakaria-narjis/Diet-Recommendation-System](https://github.com/KishoreR29/Diet_planning)
 ```
 ### docker-compose
 In the project root run:
