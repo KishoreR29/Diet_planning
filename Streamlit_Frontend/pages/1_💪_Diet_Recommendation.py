@@ -18,10 +18,11 @@ if 'person' not in st.session_state:
     st.session_state.weight_loss_option=None
 class Person:
 
-    def __init__(self,age,height,weight,gender,activity,meals_calories_perc,weight_loss):
+    def __init__(self,age,height,weight,place,gender,activity,meals_calories_perc,weight_loss):
         self.age=age
         self.height=height
         self.weight=weight
+        self.place=place
         self.gender=gender
         self.activity=activity
         self.meals_calories_perc=meals_calories_perc
