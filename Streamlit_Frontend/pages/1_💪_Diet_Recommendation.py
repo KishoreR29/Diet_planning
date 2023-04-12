@@ -248,7 +248,8 @@ with st.form("recommendation_form"):
     age = st.number_input('Age',min_value=2, max_value=120, step=1)
     height = st.number_input('Height(cm)',min_value=50, max_value=300, step=1)
     weight = st.number_input('Weight(kg)',min_value=10, max_value=300, step=1)
-    place =  st.text_input('place(India)')
+    list = ['New york, Los Angeles, San Francisco, Seattle, Boston, Washington DC, Florida']
+    place =  st.selectbox('choose your city', list )
     gender = st.radio('Gender',('Male','Female'))
     activity = st.select_slider('Activity',options=['Little/no exercise', 'Light exercise', 'Moderate exercise (3-5 days/wk)', 'Very active (6-7 days/wk)', 
     'Extra active (very active & physical job)'])
